@@ -32,6 +32,14 @@ Task on subjects "Java Program Development" and "Web Program Development for Mob
 - `SPRING_DATASOURCE_URL` db url string
 - `SPRING_DATASOURCE_USERNAME` db username
 - `SPRING_DATASOURCE_PASSWORD` db password
+- `JWT_SECRET` secret key for JWT
+- `JWT_EXPIRATION_HOURS` jwt expiration time in hours
+- `ROOM_LIMIT` default limit for room pagination
+- `BCRYPT_STRENGTH`
+- `MIN_EMAIL_CHUNKS` min chunks separated by `.` in email
+- `MIN_PASSWORD_LENGTH`
+- `TOKEN_TYPE_KEY`
+- `TOKEN_TYPE_VALUE`
 - `PGSSLMODE` set to 'no-verify' for Heroku
 - `NEXT_PUBLIC_BACKEND_URL` backend deploy url (used by frontend)
 
